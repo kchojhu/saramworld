@@ -5,7 +5,7 @@ declare let jQuery: any;
 @Injectable()
 export class AppConfig {
   config = {
-    name: 'sing',
+    name: 'saram',
     title: 'Sing Dashboard App with Angular 2.0 support by Flatlogic',
     version: '3.2.0',
     /**

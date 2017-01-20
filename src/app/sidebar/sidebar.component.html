@@ -4,16 +4,14 @@
   </header>
   <div class="sidebar-status hidden-md-up">
     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <span class="thumb-sm avatar float-xs-right">
+      <span class="thumb-sm avatar float-xs-right">
         <img class="rounded-circle" src="assets/img/people/a5.jpg" alt="...">
               </span>
       <!-- .circle is a pretty cool way to add a bit of beauty to raw data.
            should be used with bg-* and text-* classes for colors -->
       <span class="circle bg-warning fw-bold text-gray-dark">
                   13
-              </span>
-      &nbsp;
-      Philip <strong>Smith</strong>
+              </span> &nbsp; Philip <strong>Smith</strong>
       <b class="caret"></b>
     </a>
     <!-- #notifications-dropdown-menu goes here when screen collapsed to xs or sm -->
@@ -21,31 +19,42 @@
   <!-- main notification links are placed inside of .sidebar-nav -->
   <ul class="sidebar-nav">
     <li class="active">
-      <a [routerLink]=" ['dashboard'] ">
-      <span class="icon">
-          <i class="fa fa-child"></i>
+      <a [routerLink]=" ['chat'] ">
+        <span class="icon">
+          <i class="fa fa-stack-text bold">G</i>
+      </span> General
+        <span class="tag tag-danger">
+          30
       </span>
-        Dashboard
       </a>
     </li>
     <li>
       <a [routerLink]=" ['another-page'] ">
-      <span class="icon">
-          <i class="fa fa-tree"></i>
-      </span>
-        Another Page
+        <span class="icon">
+          <i class="fa fa-stack-text bold">20s</i>
+      </span> Twenties
         <span class="tag tag-danger">
           9
       </span>
       </a>
     </li>
     <li>
-      <!-- an example of nested submenu. basic bootstrap collapse component -->
+      <a [routerLink]=" ['another-page'] ">
+        <span class="icon">
+          <i class="fa fa-stack-text bold">30s</i>
+      </span> Thirties
+        <span class="tag tag-danger">
+          9
+      </span>
+      </a>
+    </li>
+    <!-- an example of nested submenu. basic bootstrap collapse component -->
+
+    <!--           <li>
       <a class="collapsed" data-target="#sidebar-forms" data-toggle="collapse" data-parent="#sidebar">
-          <span class="icon">
+        <span class="icon">
             <i class="glyphicon glyphicon-align-right"></i>
-          </span>
-        Forms
+          </span> Forms
         <i class="toggle fa fa-angle-down"></i>
       </a>
       <ul id="sidebar-forms" class="collapse">
@@ -54,13 +63,13 @@
         <li><a [routerLink]=" ['forms/wizard'] ">Form Wizard</a></li>
       </ul>
     </li>
+    -->
   </ul>
+  <!-- 
   <h5 class="sidebar-nav-title">Labels <a class="action-link" href="#"><i class="glyphicon glyphicon-plus"></i></a></h5>
-  <!-- some styled links in sidebar. ready to use as links to email folders, projects, groups, etc -->
   <ul class="sidebar-labels">
     <li>
       <a href="#">
-        <!-- yep, .circle again -->
         <i class="fa fa-circle text-warning mr-xs"></i>
         <span class="label-name">My Recent</span>
       </a>
@@ -78,8 +87,12 @@
       </a>
     </li>
   </ul>
+  -->
+  <!--
   <h5 class="sidebar-nav-title">Projects</h5>
+  -->
   <!-- A place for sidebar notifications & alerts -->
+  <!--
   <div class="sidebar-alerts">
     <div class="alert fade in">
       <a href="#" class="close" data-dismiss="alert" aria-hidden="true">&times;</a>
@@ -98,4 +111,5 @@
       <small>Provide required notes</small>
     </div>
   </div>
+  -->
 </div>
