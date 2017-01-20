@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+@import "scss/variables";
+@import "scss/mixins";
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/font-awesome/scss/font-awesome";
+@import "../node_modules/glyphicons-halflings/scss/glyphicons-halflings";
+@import "../node_modules/pace/themes/pace-theme-flash";
+@import "../node_modules/animate.css/animate";
+@import "../node_modules/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox";
+
+@import "scss/bootstrap-override";
+@import "scss/libs-override";
+
+//everything below this line is required for essential styling
+@import "scss/font";
+@import "scss/general";
+@import "scss/global-transitions";
+@import "scss/base";
+@import "scss/utils";
