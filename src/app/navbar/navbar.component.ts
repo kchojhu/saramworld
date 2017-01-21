@@ -11,6 +11,7 @@ export class Navbar implements OnInit {
   @Output() toggleChatEvent: EventEmitter<any> = new EventEmitter();
   $el: any;
   config: any;
+  isLoggedIn: boolean = false;
 
   constructor(el: ElementRef, config: AppConfig) {
     this.$el = jQuery(el.nativeElement);
