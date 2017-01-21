@@ -22,7 +22,7 @@ describe('Navbar', () => {
 
 // test
   beforeEach(() => {
-    fixture = TestBed.createComponent(Navbar;
+    fixture = TestBed.createComponent(Navbar);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
